@@ -67,7 +67,7 @@ class Openvpn < Formula
     if MacOS.version < :yosemite
       s += <<-EOS.undent
         If you have installed the Tuntap dependency as a source package you will
-        need to follow the instructions found in `brew info tuntap`. If you have
+        need to follow the instructions found in `brew cask info tuntap`. If you have
         installed the binary Tuntap package, no further action is necessary.
 
       EOS
